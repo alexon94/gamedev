@@ -1,0 +1,22 @@
+# Godot generated data
+**/.godot/
+**/.import/
+
+# Local export settings and credentials
+**/export.cfg
+**/export_credentials.cfg
+
+# Crash reports
+**/mono_crash.*.json
+
+# Local builds and exports
+builds/
+exports/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
