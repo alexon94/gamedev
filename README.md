@@ -15,25 +15,24 @@
 
 Папка `godot/` предназначена для нескольких независимых проектов. Каждый новый проект следует создавать в собственной подпапке.
 
+Папка `phaser/` предназначена для браузерных игр на Phaser. Каждый проект также следует размещать в отдельной подпапке.
+
 ## Документация
 
 Материалы в `docs/` являются справочными и не определяют требования к активному проекту.
 
 ### Руководства
 
-- [Использование нейросети при создании игры в Godot](docs/guides/ai_in_godot_game_development.md)
-- [Создание 2D-игры в Godot: практический путь](docs/guides/godot_game_dev_guide.md)
-- [Godot: погружение в разработку игр](docs/guides/godot_put_razrabotchika_igr.md)
+- [Использование нейросети при создании игры в Godot](docs/ai_in_godot_game_development.md)
+- [Создание 2D-игры в Godot: практический путь](docs/godot_game_dev_guide.md)
+- [Godot: погружение в разработку игр](docs/godot_put_razrabotchika_igr.md)
+- [Путь разработчика 2D-игры на Phaser](docs/phaser_put_razrabotchika_igr.md)
 
 ### Концепции игр
 
 - [Идеи игр в стиле «100 испытаний»](docs/concepts/idei_100_ispytaniy.md)
 - [Игры про эволюцию и развитие цивилизации](docs/concepts/idei_2d_igry_evolyuciya.md)
 - [Ранние концепции «Лесного светлячка» и «Маленького планетохода»](docs/concepts/idei_lesnoy_svetlyachok_i_planeto.md)
-
-### Альтернативные технологии
-
-- [Путь разработчика 2D-игры на Phaser](docs/alternatives/phaser_put_razrabotchika_igr.md)
 
 ## Структура
 
@@ -42,8 +41,7 @@ gamedev/
 ├── README.md
 ├── godot/               # проекты на Godot
 │   └── forest_firefly/  # активный проект «Лесной светлячок»
-└── docs/
-    ├── guides/          # учебные руководства
-    ├── concepts/        # ранние и альтернативные идеи игр
-    └── alternatives/    # другие технологии разработки
+├── phaser/              # браузерные игры на Phaser
+└── docs/                # учебные руководства
+    └── concepts/        # ранние и альтернативные идеи игр
 ```
