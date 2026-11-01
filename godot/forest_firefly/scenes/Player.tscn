@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bujnuu8oj1lbu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1vivr"]
+size = Vector2(22, 22)
+
+[node name="Player" type="CharacterBody2D" unique_id=1128477107]
+
+[node name="Visual" type="ColorRect" parent="." unique_id=460548009]
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+color = Color(1, 0.84705883, 0.2901961, 1)
+
+[node name="Hitbox" type="CollisionShape2D" parent="." unique_id=136222494]
+position = Vector2(-16, -16)
+shape = SubResource("RectangleShape2D_1vivr")

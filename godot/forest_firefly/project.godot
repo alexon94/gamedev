@@ -12,6 +12,7 @@ config_version=5
 
 config/name="Лесной светлячок"
 config/description="Небольшая 2D-аркада на реакцию для Godot 4"
+run/main_scene="uid://bfuyoflurjwhk"
 config/features=PackedStringArray("4.7")
 
 [display]

@@ -50,9 +50,9 @@
 
 ```text
 если кнопка удерживается:
-    velocity_y = move_toward(velocity_y, -lift_speed, lift_acceleration * delta)
+	velocity_y = move_toward(velocity_y, -lift_speed, lift_acceleration * delta)
 иначе:
-    velocity_y = move_toward(velocity_y, fall_speed, gravity * delta)
+	velocity_y = move_toward(velocity_y, fall_speed, gravity * delta)
 position.y += velocity_y * delta
 ```
 
@@ -227,8 +227,8 @@ ForestFirefly/
 │   ├── ObstacleSpawner.gd
 │   └── Game.gd
 └── assets/
-    ├── art/
-    └── audio/
+	├── art/
+	└── audio/
 ```
 
 На первом этапе сцены можно собрать из временных узлов. Предлагаемые узлы: `Node`/`Node2D` для корней, `CharacterBody2D` для игрока, `Area2D` для частиц и опасных зон, `CanvasLayer` для HUD, `Timer` для интервалов генерации.

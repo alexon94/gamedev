@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://5aw7mo4sjtiu"]
+
+[node name="Game" type="Node2D" unique_id=1687773126]
+
+[node name="Background" type="ColorRect" parent="." unique_id=1838960888]
+offset_right = 960.0
+offset_bottom = 540.0
+color = Color(0.03137255, 0.08235294, 0.1764706, 1)
+
+[node name="World" type="Node2D" parent="." unique_id=380699028]
